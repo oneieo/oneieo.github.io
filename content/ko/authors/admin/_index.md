@@ -26,7 +26,7 @@ role: Senior
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Jeonbuk National University
-    url: https://www.example.com/
+    url: https://www.jbnu.ac.kr
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
