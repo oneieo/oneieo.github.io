@@ -16,8 +16,8 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+        text: 포트폴리오 다운받기
+        url: uploads/Jiwon_Portfolio.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
