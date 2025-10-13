@@ -34,8 +34,8 @@ profiles:
   - icon: at-symbol
     url: "mailto:boywonderof@jbnu.ac.kr"
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/BuildLore
+  # - icon: brands/x
+  #   url: https://x.com/BuildLore
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
