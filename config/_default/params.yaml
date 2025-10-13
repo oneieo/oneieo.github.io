@@ -33,6 +33,10 @@ header:
     # block: floating-theme-toggler
     block: navbar
     show_search: true
+    logo:
+      # text: "선지원" # 텍스트 로고
+      # # 또는 이미지 로고
+      filename: "logo.png" # assets/media/logo.png
 
 # Site footer
 footer:
