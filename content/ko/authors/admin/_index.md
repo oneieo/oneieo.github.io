@@ -3,15 +3,15 @@
 title: 선지원
 
 # Name pronunciation (optional)
-name_pronunciation: Seon Jiwon
+# name_pronunciation: 선지원
 
 # Full name (for SEO)
 first_name: 지원
 last_name: 선
 university: 전북대
 
-# Pronouns (optional)
-pronouns: she/her
+# # Pronouns (optional)
+# pronouns: she/her
 
 # Status emoji
 status:
