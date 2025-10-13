@@ -25,7 +25,7 @@ role: 대학생
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Jeonbuk National University
+  - name: 전북대학교
     url: https://www.jbnu.ac.kr
 
 # Social network links
