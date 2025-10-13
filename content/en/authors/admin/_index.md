@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Seon
+title: Seon Jiwon
 
 # Name pronunciation (optional)
 name_pronunciation: Seon Jiwon
 
 # Full name (for SEO)
-first_name: 지원
-last_name: 선
-university: 전북대
+first_name: Jiwon
+last_name: Seon
+university: Jeonbuk National University
 
 # Pronouns (optional)
 pronouns: she/her
