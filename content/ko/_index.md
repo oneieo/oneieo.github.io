@@ -32,6 +32,7 @@ sections:
   - block: experience
     content:
       username: admin
+      title: 경력
     design:
       # Hugo date format
       date_format: "January 2006"
