@@ -30,7 +30,8 @@ marketing:
 header:
   navbar:
     enable: true
-    block: floating-theme-toggler
+    # block: floating-theme-toggler
+    block: navbar
     show_search: true
 
 # Site footer
@@ -55,4 +56,4 @@ features:
   privacy_pack:
     enable: false
   search:
-    enable: true
+    provider: wowchemy
