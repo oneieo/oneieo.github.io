@@ -57,3 +57,6 @@ features:
     enable: false
   search:
     provider: wowchemy
+
+head: |
+  <link rel="stylesheet" href="/css/custom.css">

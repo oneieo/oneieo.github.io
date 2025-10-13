@@ -1,0 +1,26 @@
+/* 전체 배경색 변경 */
+body {
+  background-color: #f8fafc;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+a {
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: rgb(160, 160, 160);
+    transform: translateY(5px);
+  }
+}
