@@ -13,7 +13,7 @@ baseURL: "https://oneieo.github.io/" # Website URL
 
 defaultContentLanguage: ko
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################
@@ -53,3 +53,4 @@ sitemap:
   changefreq: daily
   filename: sitemap.xml
   priority: 0.5
+enableMissingTranslationPlaceholders: false
