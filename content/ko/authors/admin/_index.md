@@ -39,7 +39,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/oneieo
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/
   - icon: brands/instagram
     url: https://www.instagram.com/
 
