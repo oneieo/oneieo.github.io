@@ -1,11 +1,11 @@
 ---
-title: 'Home'
-date: 2023-10-24
+title: "홈"
+date: 2025-10-18
 type: landing
 
 design:
   # Default section spacing
-  spacing: '4rem'
+  spacing: "4rem"
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
@@ -24,7 +24,7 @@ sections:
         filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
       biography:
         # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
+        style: "text-align: justify; font-size: 0.8em;"
       # Avatar customization
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
@@ -34,7 +34,7 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: "January 2006"
       # Education or Experience section first?
       is_education_first: false
   - block: skills
