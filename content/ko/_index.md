@@ -29,21 +29,32 @@ sections:
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
+  - block: contact
     content:
-      title: 위치
-      text: |
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.1219545114177!2d127.13304212555703!3d35.846013044096786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35702330dc920b9d%3A0x1d0d425396006646!2z7KCE67aB64yA7ZWZ6rWQIOqzteqzvOuMgO2VmSA37Zi46rSA!5e0!3m2!1sko!2skr!4v1760381832335!5m2!1sko!2skr"
-          width="100%" 
-          height="450" 
-          style="border:0;" 
-          allowfullscreen="" 
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+      title: 연락처
+      email: boywonderof@jbnu.ac.kr
+      address:
+        street: 전북대학교 공과대학 7호관
+      coordinates:
+        latitude: "35.846013"
+        longitude: "127.133042"
     design:
-      columns: "1"
+      columns: "2"
+  # - block: markdown
+  #   content:
+  #     title: 위치
+  #     text: |
+  #       <iframe
+  #         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.1219545114177!2d127.13304212555703!3d35.846013044096786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35702330dc920b9d%3A0x1d0d425396006646!2z7KCE67aB64yA7ZWZ6rWQIOqzteqzvOuMgO2VmSA37Zi46rSA!5e0!3m2!1sko!2skr!4v1760381832335!5m2!1sko!2skr"
+  #         width="100%"
+  #         height="450"
+  #         style="border:0;"
+  #         allowfullscreen=""
+  #         loading="lazy"
+  #         referrerpolicy="no-referrer-when-downgrade">
+  #       </iframe>
+  #   design:
+  #     columns: "1"
   - block: skills
     content:
       title: 전공
