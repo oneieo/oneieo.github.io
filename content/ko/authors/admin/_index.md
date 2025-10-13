@@ -25,7 +25,7 @@ role: Senior
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
+  - name: Jeonbuk National University
     url: https://www.example.com/
 
 # Social network links
