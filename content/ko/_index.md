@@ -29,10 +29,16 @@ sections:
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: markdown
+    content:
+      title: 경력
+      subtitle: ""
+    design:
+      spacing:
+        padding: ["20px", "0", "0", "0"]
   - block: experience
     content:
       username: admin
-      title: 경력
     design:
       # Hugo date format
       date_format: "January 2006"
