@@ -29,13 +29,15 @@ sections:
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  # - block: markdown
-  #   content:
-  #     title: 경력
-  #     subtitle: ""
-  #   design:
-  #     spacing:
-  #       padding: ["20px", "0", "0", "0"]
+  - block: skills
+    content:
+      title: 전공
+      username: admin
+  - block: education
+    content:
+      title: 경력
+      username: admin
+  #   title:
   # - block: experience
   #   content:
   #     username: admin
@@ -43,11 +45,7 @@ sections:
   #     # Hugo date format
   #     date_format: "January 2006"
   #     # Education or Experience section first?
-  #     is_education_first: false
-  - block: skills
-    content:
-      title: 전공
-      username: admin
+  #     is_education_first: true
   - block: awards
     content:
       title: Awards
