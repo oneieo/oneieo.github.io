@@ -23,6 +23,6 @@ ko:
     description: 전북대 무역학과 선지원 포트폴리오 페이지입니다.
   menu:
     main:
-      - name: 소개
-        url: "#about"
+      - name: 🏠
+        url: "/"
         weight: 1
