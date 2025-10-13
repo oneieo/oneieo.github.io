@@ -37,7 +37,7 @@ profiles:
   # - icon: brands/x
   #   url: https://x.com/BuildLore
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/oneieo
   - icon: brands/linkedin
     url: https://www.linkedin.com/
   - icon: brands/instagram
