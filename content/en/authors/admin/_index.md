@@ -11,7 +11,7 @@ last_name: Seon
 university: Jeonbuk National University
 
 # Pronouns (optional)
-pronouns: she/her
+# pronouns: she/her
 
 # Status emoji
 status:
