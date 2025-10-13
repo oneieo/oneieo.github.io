@@ -9,7 +9,7 @@ en:
   title: Jiwon Seon's Portfolio
   params:
     description: This is Jiwon Seon's Portfolio.
-  weight: 1
+  weight: 2
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
@@ -18,7 +18,7 @@ ko:
   languageCode: ko-kr
   contentDir: content/ko
   title: 선지원 포트폴리오
-  weight: 2
+  weight: 1
   params:
     description: 전북대 무역학과 선지원 포트폴리오 페이지입니다.
   menu:
