@@ -149,7 +149,7 @@ awards:
   - title: university president_Excellent Performance Award
     date: "2022-03-15"
     awarder: Jeonbuk National University President
-    icon: icons/trophy.png
+    icon: trophy.png
     summary: |
       During my second year of school, I maintained an average GPA of 4.5/4.5 in all subjects to achieve the first place in the department, and won the Presidential Award in recognition of my academic achievement.
   - title: Blockchain Fundamentals
