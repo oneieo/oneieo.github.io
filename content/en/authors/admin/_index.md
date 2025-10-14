@@ -146,9 +146,9 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 총장상_성적우수상
+  - title: university president_Excellent Performance Award
     date: "2022-03-15"
-    awarder: 전북대학교 총장
+    awarder: Jeonbuk National University President
     icon: brands/coursera
     summary: |
       2학년 재학 기간 동안 전 과목 평균 평점 4.5/4.5를 유지하여 학과 1등을 달성하였으며, 이러한 학업적 성취를 인정받아 총장상을 수상하였습니다.
