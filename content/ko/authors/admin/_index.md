@@ -153,9 +153,8 @@ awards:
     summary: |
       2학년 재학 기간 동안 전 과목 평균 평점 4.5/4.5를 유지하여 학과 1등을 달성하였으며, 이러한 학업적 성취를 인정받아 총장상을 수상하였습니다.
   - title: 최우수상_2025학년도 1학기 SW 캡스톤디자인 경진대회
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: "2023-07-01"
-    awarder: edX
+    date: "2025-06-20"
+    awarder: 전북대학교
     icon: trophy
     summary: |
       Learned:
