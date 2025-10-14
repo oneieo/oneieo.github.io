@@ -151,7 +151,7 @@ awards:
     awarder: Jeonbuk National University President
     icon: brands/coursera
     summary: |
-      During his second year of school, he maintained an average GPA of 4.5/4.5 in all subjects to achieve the first place in the department, and won the Presidential Award in recognition of his academic achievement.
+      During my second year of school, I maintained an average GPA of 4.5/4.5 in all subjects to achieve the first place in the department, and won the Presidential Award in recognition of my academic achievement.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: "2023-07-01"
