@@ -146,13 +146,12 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: "2023-11-25"
-    awarder: Coursera
+  - title: 총장상_성적우수상
+    date: "2022-03-15"
+    awarder: 전북대학교 총장
     icon: brands/coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+      2학년 재학 기간 동안 전 과목 평균 평점 4.5/4.5를 유지하여 학과 1등을 달성하였으며, 이러한 학업적 성취를 인정받아 총장상을 수상하였습니다.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: "2023-07-01"
