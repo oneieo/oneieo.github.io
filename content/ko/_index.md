@@ -66,7 +66,7 @@ sections:
 
   - block: awards
     content:
-      title: Awards
+      title: 수상경력
       username: admin
   - block: languages
     content:
