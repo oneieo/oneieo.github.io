@@ -151,7 +151,7 @@ awards:
     awarder: Jeonbuk National University President
     icon: brands/coursera
     summary: |
-      2학년 재학 기간 동안 전 과목 평균 평점 4.5/4.5를 유지하여 학과 1등을 달성하였으며, 이러한 학업적 성취를 인정받아 총장상을 수상하였습니다.
+      During his second year of school, he maintained an average GPA of 4.5/4.5 in all subjects to achieve the first place in the department, and won the Presidential Award in recognition of his academic achievement.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: "2023-07-01"
