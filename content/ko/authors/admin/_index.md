@@ -149,7 +149,7 @@ awards:
   - title: 총장상_성적우수상
     date: "2022-03-15"
     awarder: 전북대학교 총장
-    icon: trophy.png
+    icon: trophy
     summary: |
       2학년 재학 기간 동안 전 과목 평균 평점 4.5/4.5를 유지하여 학과 1등을 달성하였으며, 이러한 학업적 성취를 인정받아 총장상을 수상하였습니다.
   - title: Blockchain Fundamentals
