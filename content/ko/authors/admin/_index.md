@@ -157,10 +157,7 @@ awards:
     awarder: 전북대학교
     icon: trophy
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+      "LLM을 활용한 AI 논문 요약 및 시각화 플랫폼"을 주제로 프로젝트를 진행하였으며, 대규모 언어 모델의 자연어 처리 기술을 활용하여 학술 논문의 핵심 내용을 자동으로 추출하고 직관적인 시각화 자료로 변환하는 혁신적인 시스템을 개발하였습니다. 연구자들의 논문 검토 시간을 획기적으로 단축시킬 수 있는 실용적인 솔루션을 제시하였고, 우수한 기술적 완성도와 높은 활용 가능성을 인정받아 최우수상을 수상하였습니다.
 ---
 
 저는 현재 전북대학교에서 무역학과 컴퓨터공학을 전공하고 있습니다.
