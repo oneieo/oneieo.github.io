@@ -23,6 +23,6 @@ ko:
     description: 전북대 선지원 포트폴리오 페이지입니다.
   menu:
     main:
-      - name: 🏠
+      - name: 메인
         url: "/"
         weight: 1
