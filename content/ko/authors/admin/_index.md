@@ -160,7 +160,7 @@ awards:
       "LLM을 활용한 AI 논문 요약 및 시각화 플랫폼"을 주제로 프로젝트를 진행하였으며, 대규모 언어 모델의 자연어 처리 기술을 활용하여 학술 논문의 핵심 내용을 자동으로 추출하고 직관적인 시각화 자료로 변환하는 혁신적인 시스템을 개발하였습니다. 연구자들의 논문 검토 시간을 획기적으로 단축시킬 수 있는 실용적인 솔루션을 제시하였고, 우수한 기술적 완성도와 높은 활용 가능성을 인정받아 최우수상을 수상하였습니다.
   - title: 최우수상_2025 대학생 무역캠프
     date: "2025-08-29"
-    awarder: datacamp
+    awarder: 한국무역협회(KITA)
     icon: brands/datacamp
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
