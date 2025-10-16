@@ -26,3 +26,6 @@ ko:
       - name: 메인
         url: "/"
         weight: 1
+      - name: 무역학
+        url: "trade/"
+        weight: 2
