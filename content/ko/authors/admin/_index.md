@@ -163,7 +163,7 @@ awards:
     awarder: 한국무역협회(KITA)
     icon: trophy
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      한국무역협회와 산학협동재단이 공동으로 주관한 2025 무역 시뮬레이션 경진대회에서 한국 츄르 기업의 일본 시장 진출 전략을 주제로 발표하였습니다. 일본 반려동물 시장의 성장 추세와 소비자 선호도를 면밀히 분석하고, 한국 제품의 차별화된 경쟁력을 기반으로 한 현지화 전략, 유통 채널 구축 방안, 마케팅 전략 등을 체계적으로 수립하여 실현 가능성 높은 시장 진출 계획을 제시하였습니다. 시장 조사의 깊이, 전략의 구체성, 그리고 실무 적용 가능성을 인정받아 최우수상을 수상하였습니다.
 ---
 
 저는 현재 전북대학교에서 무역학과 컴퓨터공학을 전공하고 있습니다.
