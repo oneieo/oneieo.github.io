@@ -146,16 +146,16 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: university president_Excellent Performance Award
+  - title: President's Award_Excellent Performance Award
     date: "2022-03-15"
     awarder: Jeonbuk National University President
     icon: trophy
     summary: |
       During my second year of school, I maintained an average GPA of 4.5/4.5 in all subjects to achieve the first place in the department, and won the Presidential Award in recognition of my academic achievement.
-  - title: Blockchain Fundamentals
+  - title: The Best Prize_SW Capstone Design Contest for the 1st Semester of the 2025 School Year
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: "2023-07-01"
-    awarder: edX
+    date: "2025-06-20"
+    awarder: Jeonbuk National University
     icon: trophy
     summary: |
       Learned:
