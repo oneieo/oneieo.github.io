@@ -162,7 +162,7 @@ awards:
   - title: The Best Prize_University Student Trade Camp 2025
     date: "2025-08-29"
     awarder: Korea International Trade Association(KITA)
-    icon: trophy
+    icon: 🏆
     summary: |
       At the 2025 trade simulation competition jointly organized by the Korea International Trade Association and the Industry-Academic Cooperation Foundation, the company presented its strategy for entering the Japanese market by Korean churro companies. By closely analyzing the growth trend and consumer preference of the Japanese pet market, and systematically establishing localization strategies, distribution channel construction plan, and marketing strategy based on the differentiated competitiveness of Korean products, we presented a highly feasible plan for entering the market. We received the top prize in recognition of the depth of market research, specificity of the strategy, and practical applicability.
 ---
