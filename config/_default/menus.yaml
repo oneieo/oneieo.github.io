@@ -10,6 +10,6 @@ main:
   - name: Trade
     url: trade/
     weight: 20
-  - name: Uses
+  - name: Computer Science
     url: uses/
     weight: 30
