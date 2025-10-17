@@ -7,7 +7,7 @@ main:
   - name: Profile
     url: /
     weight: 10
-  - name: Blog
+  - name: Trade
     url: trade/
     weight: 20
   - name: Uses
