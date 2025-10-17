@@ -29,3 +29,6 @@ ko:
       - name: 무역학
         url: "trade/"
         weight: 2
+      - name: 컴퓨터공학
+        url: "trade/"
+        weight: 2
