@@ -11,5 +11,5 @@ main:
     url: trade/
     weight: 20
   - name: Computer Science
-    url: uses/
+    url: cs/
     weight: 30
