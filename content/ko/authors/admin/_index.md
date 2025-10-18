@@ -103,8 +103,6 @@ work:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: 전공
-    color: "#FF88B2"
-    color_border: "#FFA7C6"
     items:
       - name: 무역학
         description: ""
