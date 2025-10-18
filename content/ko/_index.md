@@ -46,7 +46,7 @@ sections:
       columns: "1"
   - block: skills
     content:
-      title: 전공
+      title: 전공 및 취미
       username: admin
   # - block: markdown
   #   content:
