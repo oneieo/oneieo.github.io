@@ -107,16 +107,12 @@ skills:
       - name: 무역학
         description: ""
         percent: 90
-        icon: trophy
+        icon: devicon/vessel
       - name: 컴퓨터공학
         description: ""
         percent: 90
-        icon: trophy
-      - name: ?
-        description: ""
-        percent: 0
-        icon: trophy
-  - name: 취미
+        icon: devicon/computer
+  - name: Hobbies
     color: "#eeac02"
     color_border: "#f0bf23"
     items:
