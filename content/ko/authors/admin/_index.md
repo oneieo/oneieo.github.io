@@ -102,21 +102,23 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 전공
+    color: "#FF88B2"
+    color_border: "#FFA7C6"
     items:
-      - name: Python
+      - name: 무역학
         description: ""
-        percent: 80
-        icon: devicon/python
-      - name: RStudio
+        percent: 90
+        icon: devicon/vessel
+      - name: 컴퓨터공학
         description: ""
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
+        percent: 90
+        icon: devicon/computer
+      - name: ?
         description: ""
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
+        percent: 0
+        icon: devicon/question
+  - name: 취미
     color: "#eeac02"
     color_border: "#f0bf23"
     items:
