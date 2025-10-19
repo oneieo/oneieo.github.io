@@ -30,45 +30,45 @@ sections:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
-    content:
-      title: ""
-      text: |
-          <div class="hero-slider">
-            <div class="slider-container">
-              <div class="slide active">
-                <img src="/assets/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="환영합니다">
-                <div class="slide-content">
-                  <h1>👋 환영합니다</h1>
-                  <p>저희가 하고 있는 일을 살펴보세요...</p>
-                </div>
-              </div>
-              <div class="slide">
-                <img src="/assets/media/logo.png" alt="함께 배우기">
-                <div class="slide-content">
-                  <h1>☕️ 함께 배우기</h1>
-                  <p>지식을 공유하고 새로운 주제를 탐구하세요!</p>
-                </div>
-              </div>
-              <div class="slide">
-                <img src="/assets/media/trophy.png" alt="연구실">
-                <div class="slide-content">
-                  <h1>세계적인 연구실</h1>
-                  <p>지난달에 오픈했습니다!</p>
-                  <a href="../contact/" class="slide-btn">Join Us</a>
-                </div>
-              </div>
-            </div>
-                      <button class="slider-prev">&#10094;</button>
-            <button class="slider-next">&#10095;</button>
-            <div class="slider-dots">
-                          <span class="dot active" data-slide-index="0"></span>
-              <span class="dot" data-slide-index="1"></span>
-              <span class="dot" data-slide-index="2"></span>
-            </div>
-          </div>
-    design:
-      spacing:
-        padding: ["0", "0", "0", "0"]
+    content:
+      title: ""
+      text: |
+        <div class="hero-slider">
+          <div class="slider-container">
+            <div class="slide active">
+              <img src="/assets/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="환영합니다">
+              <div class="slide-content">
+                <h1>👋 환영합니다</h1>
+                <p>저희가 하고 있는 일을 살펴보세요...</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="/assets/media/logo.png" alt="함께 배우기">
+              <div class="slide-content">
+                <h1>☕️ 함께 배우기</h1>
+                <p>지식을 공유하고 새로운 주제를 탐구하세요!</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="/assets/media/trophy.png" alt="연구실">
+              <div class="slide-content">
+                <h1>세계적인 연구실</h1>
+                <p>지난달에 오픈했습니다!</p>
+                <a href="../contact/" class="slide-btn">Join Us</a>
+              </div>
+            </div>
+          </div>
+          <button class="slider-prev">&#10094;</button>
+          <button class="slider-next">&#10095;</button>
+          <div class="slider-dots">
+            <span class="dot active" data-slide-index="0"></span>
+            <span class="dot" data-slide-index="1"></span>
+            <span class="dot" data-slide-index="2"></span>
+          </div>
+        </div>
+    design:
+      spacing:
+        padding: ["0", "0", "0", "0"]
   - block: skills
     content:
       title: 전공 및 기술스택
