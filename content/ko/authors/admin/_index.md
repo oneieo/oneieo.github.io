@@ -112,11 +112,11 @@ skills:
       - name: 무역학
         description: ""
         percent: 90
-        icon: devicon/vessel
+        icon: 🌏
       - name: 컴퓨터공학
         description: ""
         percent: 90
-        icon: devicon/computer
+        icon: 💻
   - name: 기술스택
     color: "#00B2D6"
     color_border: "#5BCCE2"

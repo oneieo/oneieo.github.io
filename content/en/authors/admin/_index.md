@@ -112,11 +112,11 @@ skills:
       - name: International Trade
         description: ""
         percent: 90
-        icon: earth
+        icon: 🌏
       - name: Computer Science
         description: ""
         percent: 90
-        icon: computer
+        icon: 💻
   - name: Tech Stack
     color: "#00B2D6"
     color_border: "#5BCCE2"
