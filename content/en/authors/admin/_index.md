@@ -81,18 +81,27 @@ work:
       - Overseas buyer sourcing, matching, and export market research & analysis
       - Assistance with trade documentation and import/export procedures
       - Planning and operational support for global business networking events
-  - position: Backend Software Engineer
-    company_name: X
+  - position: Export Marketing & Interpreter
+    company_name: BeautyWorld Saudi Arabia 2025
     company_url: ""
     company_logo: ""
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: "2025-04-21"
+    date_end: "2025-04-23"
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+      - Supported Korean cosmetics companies' market entry into Saudi Arabia
+      - Provided on-site business interpretation and buyer consultation
+      - Developed export marketing strategies and identified local buyers
+      - Assisted with product presentations and contract negotiations
+  - position: Frontend Developer
+    company_name: NearDeal
+    company_url: ""
+    company_logo: ""
+    date_start: "2025-09-07"
+    date_end: ""
+    summary: |
+      - Developed responsive user interfaces using React and Next.js
+      - Implemented state management and API integration
+      - Optimized application performance and user experience
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
