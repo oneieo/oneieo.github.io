@@ -23,12 +23,18 @@ ko:
     description: 전북대 선지원 포트폴리오 페이지입니다.
   menu:
     main:
-      - name: 프로필
-        url: "/"
-        weight: 1
-      - name: 무역학
-        url: "trade/"
-        weight: 2
-      - name: 컴퓨터공학
-        url: "cs/"
-        weight: 3
+      - name: 소개
+        url: /
+        weight: 10
+      - name: 프로젝트
+        url: projects/
+        weight: 20
+      - name: 경험
+        url: experience/
+        weight: 30
+      - name: 수상
+        url: awards/
+        weight: 50
+      - name: 연락처
+        url: contact/
+        weight: 60
