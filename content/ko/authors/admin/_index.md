@@ -117,18 +117,19 @@ skills:
         description: ""
         percent: 90
         icon: devicon/computer
-  - name:
+  - name: 기술스택
     color: "#00B2D6"
     color_border: "#5BCCE2"
     items:
-      - name: Hiking
+      - name: React + Next.js
         description: ""
-        percent: 60
+        percent: 80
         icon: person-simple-walk
-      - name: Cats
+      - name: JavaScript + TypeScript
         description: ""
-        percent: 100
-        icon: cat
+        percent: 90
+        icon: brands/js
+        icon_pack: fab
       - name: Photography
         description: ""
         percent: 80
