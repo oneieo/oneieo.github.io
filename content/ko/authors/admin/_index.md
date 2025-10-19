@@ -70,7 +70,7 @@ education:
       text: "홈페이지"
       url: "https://csai.jbnu.ac.kr/csai/index.do"
 work:
-  - position: GTEP 사업단 요원
+  - position: GTEP 요원
     company_name: 전북대학교 GTEP 사업단
     company_url: "https://jbnugtep.com/"
     company_logo: ""
