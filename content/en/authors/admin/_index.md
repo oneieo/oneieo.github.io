@@ -112,11 +112,13 @@ skills:
       - name: International Trade
         description: ""
         percent: 90
-        icon: devicon/ship
+        icon: earth-asia
+        icon_pack: fas
       - name: Computer Science
         description: ""
         percent: 90
-        icon: devicon/computerscience
+        icon: laptop-code
+        icon_pack: fas
   - name: Tech Stack
     color: "#00B2D6"
     color_border: "#5BCCE2"
