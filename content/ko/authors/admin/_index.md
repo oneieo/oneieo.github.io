@@ -124,15 +124,15 @@ skills:
       - name: React + Next.js
         description: ""
         percent: 80
-        icon: brands/react
+        icon: devicon/react
       - name: JavaScript + TypeScript
         description: ""
         percent: 90
-        icon: brands/js
+        icon: devicon/javascript
       - name: Figma
         description: ""
         percent: 60
-        icon: camera
+        icon: devicon/figma
 
 languages:
   - name: English
