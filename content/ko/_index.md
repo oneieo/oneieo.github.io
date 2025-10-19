@@ -30,69 +30,45 @@ sections:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
-    content:
-      title: ""
-      text: |
-        <div class="hero-slider">
-          <div class="slider-container">
-            <div class="slide active">
-              <img src="/assets/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="환영합니다">
-              <div class="slide-content">
-                <h1>👋 환영합니다</h1>
-                <p>저희가 하고 있는 일을 살펴보세요...</p>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="/assets/media/logo.png" alt="함께 배우기">
-              <div class="slide-content">
-                <h1>☕️ 함께 배우기</h1>
-                <p>지식을 공유하고 새로운 주제를 탐구하세요!</p>
-              </div>
-            </div>
-            <div class="slide">
-              <img src="/assets/media/trophy.png" alt="연구실">
-              <div class="slide-content">
-                <h1>세계적인 연구실</h1>
-                <p>지난달에 오픈했습니다!</p>
-                <a href="../contact/" class="slide-btn">Join Us</a>
-              </div>
-            </div>
-          </div>
-          <button class="slider-prev" onclick="moveSlide(-1)">&#10094;</button>
-          <button class="slider-next" onclick="moveSlide(1)">&#10095;</button>
-          <div class="slider-dots">
-            <span class="dot active" onclick="goToSlide(0)"></span>
-            <span class="dot" onclick="goToSlide(1)"></span>
-            <span class="dot" onclick="goToSlide(2)"></span>
-          </div>
-        </div>
-        <style>
-        .hero-slider{position:relative;width:100%;height:500px;overflow:hidden;margin-bottom:3rem;border-radius:12px}
-        .slider-container{position:relative;width:100%;height:100%}
-        .slide{position:absolute;width:100%;height:100%;opacity:0;transition:opacity 1s ease-in-out}
-        .slide.active{opacity:1}
-        .slide img{width:100%;height:100%;object-fit:cover;filter:brightness(0.7)}
-        .slide-content{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:white;z-index:2;width:80%}
-        .slide-content h1{font-size:3rem;font-weight:700;margin-bottom:1rem;text-shadow:2px 2px 8px rgba(0,0,0,0.8);color:white}
-        .slide-content p{font-size:1.5rem;margin-bottom:2rem;text-shadow:1px 1px 4px rgba(0,0,0,0.8);color:#f0f0f0}
-        .slide-btn{display:inline-block;padding:1rem 2rem;background:#3b82f6;color:white;text-decoration:none;border-radius:8px;font-weight:600;transition:all 0.3s}
-        .slide-btn:hover{background:#2563eb;transform:translateY(-2px);box-shadow:0 10px 20px rgba(59,130,246,0.3)}
-        .slider-prev,.slider-next{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.3);color:white;border:none;padding:1rem 1.2rem;font-size:1.8rem;cursor:pointer;z-index:10;transition:background 0.3s;border-radius:4px}
-        .slider-prev:hover,.slider-next:hover{background:rgba(255,255,255,0.5)}
-        .slider-prev{left:20px}
-        .slider-next{right:20px}
-        .slider-dots{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);display:flex;gap:12px;z-index:10}
-        .dot{width:12px;height:12px;border-radius:50%;background:rgba(255,255,255,0.5);cursor:pointer;transition:all 0.3s}
-        .dot:hover{background:rgba(255,255,255,0.8)}
-        .dot.active{background:white;width:30px;border-radius:6px}
-        @media (max-width:768px){.hero-slider{height:350px}.slide-content h1{font-size:2rem}.slide-content p{font-size:1.1rem}.slider-prev,.slider-next{padding:0.6rem 1rem;font-size:1.4rem}}
-        </style>
-        <script>
-        let slideIndex=0;const slides=document.querySelectorAll('.slide');const dots=document.querySelectorAll('.dot');function showSlide(n){if(n>=slides.length)slideIndex=0;if(n<0)slideIndex=slides.length-1;slides.forEach(slide=>slide.classList.remove('active'));dots.forEach(dot=>dot.classList.remove('active'));slides[slideIndex].classList.add('active');dots[slideIndex].classList.add('active')}function moveSlide(n){slideIndex+=n;showSlide(slideIndex)}function goToSlide(n){slideIndex=n;showSlide(slideIndex)}setInterval(()=>{slideIndex++;showSlide(slideIndex)},2000);showSlide(slideIndex);
-        </script>
-    design:
-      spacing:
-        padding: ["0", "0", "0", "0"]
+    content:
+      title: ""
+      text: |
+          <div class="hero-slider">
+            <div class="slider-container">
+              <div class="slide active">
+                <img src="/assets/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="환영합니다">
+                <div class="slide-content">
+                  <h1>👋 환영합니다</h1>
+                  <p>저희가 하고 있는 일을 살펴보세요...</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="/assets/media/logo.png" alt="함께 배우기">
+                <div class="slide-content">
+                  <h1>☕️ 함께 배우기</h1>
+                  <p>지식을 공유하고 새로운 주제를 탐구하세요!</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="/assets/media/trophy.png" alt="연구실">
+                <div class="slide-content">
+                  <h1>세계적인 연구실</h1>
+                  <p>지난달에 오픈했습니다!</p>
+                  <a href="../contact/" class="slide-btn">Join Us</a>
+                </div>
+              </div>
+            </div>
+                      <button class="slider-prev">&#10094;</button>
+            <button class="slider-next">&#10095;</button>
+            <div class="slider-dots">
+                          <span class="dot active" data-slide-index="0"></span>
+              <span class="dot" data-slide-index="1"></span>
+              <span class="dot" data-slide-index="2"></span>
+            </div>
+          </div>
+    design:
+      spacing:
+        padding: ["0", "0", "0", "0"]
   - block: skills
     content:
       title: 전공 및 기술스택
