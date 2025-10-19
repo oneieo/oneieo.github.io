@@ -11,6 +11,49 @@ design:
 
 # Page sections
 sections:
+  - block: slider
+    content:
+      slides:
+        - title: 전북대학교 무역학과
+          content: 글로벌 비즈니스 전문가
+          align: center
+          background:
+            image:
+              filename: andrew-small-EfhCUc_fjrU-unsplash.jpg
+              filters:
+                brightness: 0.5
+            position: center
+            color: "#000"
+          link:
+            text: 더 알아보기
+            url: trade/
+
+        - title: 컴퓨터공학 전공
+          content: 혁신적인 소프트웨어 개발
+          align: center
+          background:
+            image:
+              filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
+              filters:
+                brightness: 0.5
+            position: center
+
+        - title: GTEP 사업단
+          content: 중소기업 수출 지원
+          align: center
+          background:
+            image:
+              filename: andrew-small-EfhCUc_fjrU-unsplash.jpg
+              filters:
+                brightness: 0.5
+            position: center
+            color: "#000"
+    design:
+      slide_height: "500px"
+      slide_width: "100%"
+      is_fullscreen: false
+      loop: true
+      interval: 4000 # 4초마다 자동 전환
   - block: biography
     content:
       username: admin
