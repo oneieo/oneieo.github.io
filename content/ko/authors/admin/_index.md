@@ -38,10 +38,13 @@ profiles:
   #   url: https://x.com/BuildLore
   - icon: brands/github
     url: https://github.com/oneieo
+    label: Github
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/%EC%A7%80%EC%9B%90-%EC%84%A0-467467366/
+    label: Linkedin
   - icon: brands/instagram
     url: https://www.instagram.com/oneieo
+    label: Instagram
 
 education:
   - area: PhD Artificial Intelligence
@@ -114,9 +117,9 @@ skills:
         description: ""
         percent: 90
         icon: devicon/computer
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
+  - name:
+    color: "#00B2D6"
+    color_border: "#5BCCE2"
     items:
       - name: Hiking
         description: ""
