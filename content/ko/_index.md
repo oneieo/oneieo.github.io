@@ -66,6 +66,7 @@ sections:
             <span class="dot" data-slide-index="2"></span>
           </div>
         </div>
+        <script src="{{"js/slider.js" | relURL}}"></script>
     design:
       spacing:
         padding: ["0", "0", "0", "0"]
