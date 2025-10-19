@@ -105,36 +105,34 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Major
+    color: "#FF91B7"
+    color_border: "#FFA7C6"
     items:
-      - name: Python
+      - name: International Trade
+        description: ""
+        percent: 90
+        icon: devicon/ship
+      - name: Computer Science
+        description: ""
+        percent: 90
+        icon: devicon/computerscience
+  - name: Tech Stack
+    color: "#00B2D6"
+    color_border: "#5BCCE2"
+    items:
+      - name: React + Next.js
         description: ""
         percent: 80
-        icon: devicon/python
-      - name: RStudio
+        icon: devicon/react
+      - name: JavaScript + TypeScript
         description: ""
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ""
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
-    items:
-      - name: Hiking
+        percent: 90
+        icon: devicon/javascript
+      - name: Figma
         description: ""
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ""
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ""
-        percent: 80
-        icon: camera
+        icon: devicon/figma
 
 languages:
   - name: English
