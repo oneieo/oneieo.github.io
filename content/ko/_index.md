@@ -30,9 +30,9 @@ sections:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
-    content:
-      title: ""
-      text: |
+    content:
+      title: ""
+      text: |
           <div class="hero-slider">
             <div class="slider-container">
               <div class="slide active">
@@ -66,9 +66,9 @@ sections:
               <span class="dot" data-slide-index="2"></span>
             </div>
           </div>
-    design:
-      spacing:
-        padding: ["0", "0", "0", "0"]
+    design:
+      spacing:
+        padding: ["0", "0", "0", "0"]
   - block: skills
     content:
       title: 전공 및 기술스택
