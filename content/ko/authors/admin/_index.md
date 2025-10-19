@@ -124,15 +124,14 @@ skills:
       - name: React + Next.js
         description: ""
         percent: 80
-        icon: person-simple-walk
+        icon: brands/react
       - name: JavaScript + TypeScript
         description: ""
         percent: 90
-        icon: brands/js-square
-        icon_pack: fab
-      - name: Photography
+        icon: brands/js
+      - name: Figma
         description: ""
-        percent: 80
+        percent: 60
         icon: camera
 
 languages:
