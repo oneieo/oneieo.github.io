@@ -29,6 +29,15 @@ sections:
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: contact
+    content:
+      title: 연락처 및 위치
+      email: boywonderof@jbnu.ac.kr
+      coordinates:
+        latitude: "35.846013"
+        longitude: "127.133042"
+    design:
+      columns: "2"
   - block: markdown
     content:
       title: 위치
@@ -68,8 +77,8 @@ sections:
     content:
       title: 수상경력
       username: admin
-  - block: languages
-    content:
-      title: Languages
-      username: admin
+  # - block: languages
+  #   content:
+  #     title: Languages
+  #     username: admin
 ---
