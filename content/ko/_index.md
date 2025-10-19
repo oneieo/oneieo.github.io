@@ -18,7 +18,7 @@ sections:
         <div class="hero-slider">
           <div class="slider-container">
             <div class="slide active">
-              <img src="/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="무역학">
+              <img src="/assets/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="무역학">
               <div class="slide-content">
                 <h1>전북대학교 무역학과</h1>
                 <p>글로벌 비즈니스 전문가</p>
@@ -26,14 +26,14 @@ sections:
               </div>
             </div>
             <div class="slide">
-              <img src="/media/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" alt="컴퓨터공학">
+              <img src="/assets/media/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" alt="컴퓨터공학">
               <div class="slide-content">
                 <h1>컴퓨터공학 전공</h1>
                 <p>혁신적인 소프트웨어 개발</p>
               </div>
             </div>
             <div class="slide">
-              <img src="/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="GTEP">
+              <img src="/assets/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="GTEP">
               <div class="slide-content">
                 <h1>GTEP 사업단</h1>
                 <p>중소기업 수출 지원</p>
