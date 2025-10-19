@@ -11,49 +11,239 @@ design:
 
 # Page sections
 sections:
-  - block: slider
+  - block: markdown
     content:
-      slides:
-        - title: 전북대학교 무역학과
-          content: 글로벌 비즈니스 전문가
-          align: center
-          background:
-            image:
-              filename: andrew-small-EfhCUc_fjrU-unsplash.jpg
-              filters:
-                brightness: 0.5
-            position: center
-            color: "#000"
-          link:
-            text: 더 알아보기
-            url: trade/
+      title: ""
+      text: |
+        <div class="hero-slider">
+          <div class="slider-container">
+            <div class="slide active">
+              <img src="/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="무역학">
+              <div class="slide-content">
+                <h1>전북대학교 무역학과</h1>
+                <p>글로벌 비즈니스 전문가</p>
+                <a href="/trade/" class="slide-btn">더 알아보기 →</a>
+              </div>
+            </div>
+            
+            <div class="slide">
+              <img src="/media/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" alt="컴퓨터공학">
+              <div class="slide-content">
+                <h1>컴퓨터공학 전공</h1>
+                <p>혁신적인 소프트웨어 개발</p>
+              </div>
+            </div>
+            
+            <div class="slide">
+              <img src="/media/andrew-small-EfhCUc_fjrU-unsplash.jpg" alt="GTEP">
+              <div class="slide-content">
+                <h1>GTEP 사업단</h1>
+                <p>중소기업 수출 지원</p>
+              </div>
+            </div>
+          </div>
+          
+          <button class="slider-prev" onclick="moveSlide(-1)">❮</button>
+          <button class="slider-next" onclick="moveSlide(1)">❯</button>
+          
+          <div class="slider-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+          </div>
+        </div>
 
-        - title: 컴퓨터공학 전공
-          content: 혁신적인 소프트웨어 개발
-          align: center
-          background:
-            image:
-              filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
-              filters:
-                brightness: 0.5
-            position: center
+        <style>
+        .hero-slider {
+          position: relative;
+          width: 100%;
+          height: 500px;
+          overflow: hidden;
+          margin-bottom: 3rem;
+          border-radius: 12px;
+        }
 
-        - title: GTEP 사업단
-          content: 중소기업 수출 지원
-          align: center
-          background:
-            image:
-              filename: andrew-small-EfhCUc_fjrU-unsplash.jpg
-              filters:
-                brightness: 0.5
-            position: center
-            color: "#000"
+        .slider-container {
+          position: relative;
+          width: 100%;
+          height: 100%;
+        }
+
+        .slide {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          transition: opacity 1s ease-in-out;
+        }
+
+        .slide.active {
+          opacity: 1;
+        }
+
+        .slide img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          filter: brightness(0.5);
+        }
+
+        .slide-content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: white;
+          z-index: 2;
+          width: 80%;
+        }
+
+        .slide-content h1 {
+          font-size: 3rem;
+          font-weight: 700;
+          margin-bottom: 1rem;
+          text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+          color: white;
+        }
+
+        .slide-content p {
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
+          text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+          color: #f0f0f0;
+        }
+
+        .slide-btn {
+          display: inline-block;
+          padding: 1rem 2rem;
+          background: #3b82f6;
+          color: white;
+          text-decoration: none;
+          border-radius: 8px;
+          font-weight: 600;
+          transition: all 0.3s;
+        }
+
+        .slide-btn:hover {
+          background: #2563eb;
+          transform: translateY(-2px);
+          box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+
+        .slider-prev, .slider-next {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: rgba(255, 255, 255, 0.3);
+          color: white;
+          border: none;
+          padding: 1rem 1.2rem;
+          font-size: 1.8rem;
+          cursor: pointer;
+          z-index: 10;
+          transition: background 0.3s;
+          border-radius: 4px;
+        }
+
+        .slider-prev:hover, .slider-next:hover {
+          background: rgba(255, 255, 255, 0.5);
+        }
+
+        .slider-prev {
+          left: 20px;
+        }
+
+        .slider-next {
+          right: 20px;
+        }
+
+        .slider-dots {
+          position: absolute;
+          bottom: 30px;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          gap: 12px;
+          z-index: 10;
+        }
+
+        .dot {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.5);
+          cursor: pointer;
+          transition: all 0.3s;
+        }
+
+        .dot:hover {
+          background: rgba(255, 255, 255, 0.8);
+        }
+
+        .dot.active {
+          background: white;
+          width: 30px;
+          border-radius: 6px;
+        }
+
+        @media (max-width: 768px) {
+          .hero-slider {
+            height: 350px;
+          }
+          
+          .slide-content h1 {
+            font-size: 2rem;
+          }
+          
+          .slide-content p {
+            font-size: 1.1rem;
+          }
+          
+          .slider-prev, .slider-next {
+            padding: 0.6rem 1rem;
+            font-size: 1.4rem;
+          }
+        }
+        </style>
+
+        <script>
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+
+        function showSlide(n) {
+          if (n >= slides.length) slideIndex = 0;
+          if (n < 0) slideIndex = slides.length - 1;
+          
+          slides.forEach(slide => slide.classList.remove('active'));
+          dots.forEach(dot => dot.classList.remove('active'));
+          
+          slides[slideIndex].classList.add('active');
+          dots[slideIndex].classList.add('active');
+        }
+
+        function moveSlide(n) {
+          slideIndex += n;
+          showSlide(slideIndex);
+        }
+
+        function goToSlide(n) {
+          slideIndex = n;
+          showSlide(slideIndex);
+        }
+
+        // 자동 슬라이드
+        setInterval(() => {
+          slideIndex++;
+          showSlide(slideIndex);
+        }, 4000);
+
+        showSlide(slideIndex);
+        </script>
     design:
-      slide_height: "500px"
-      slide_width: "100%"
-      is_fullscreen: false
-      loop: true
-      interval: 4000 # 4초마다 자동 전환
+      spacing:
+        padding: ["0", "0", "0", "0"]
   - block: biography
     content:
       username: admin
