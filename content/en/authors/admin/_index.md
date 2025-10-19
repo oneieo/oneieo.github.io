@@ -47,37 +47,28 @@ profiles:
     label: Instagram
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: International Trade
+    institution: College of Commerce, JBNU
+    date_start: 2021-03-01
+    date_end: 2026-02-14
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      GPA: 4.25/4.5
+
+      I grew up as a global business professional by acquiring the theoretical foundation and practical knowledge of international trade and learning global market trends, trade negotiations, import and export procedures, and international marketing strategies.
     button:
-      text: "Read Thesis"
-      url: "https://example.com"
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      text: "Homepage"
+      url: "https://trade.jbnu.ac.kr/trade/index.do"
+  - area: Computer Science
+    institution: College of Engineering, JBNU
+    date_start: 2022-09-01
+    date_end: 2026-02-14
     summary: |
-      GPA: 3.8/4.0
+      GPA: 4.0/4.5
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      It has developed the ability to develop innovative software solutions through programming, data structure, algorithms, databases, and artificial intelligence by learning from basic theory of computer science to practical applications.
+    button:
+      text: "Homepage"
+      url: "https://csai.jbnu.ac.kr/csai/index.do"
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -113,10 +104,12 @@ skills:
         description: ""
         percent: 90
         icon: "🌏"
+        icon_pack: emoji
       - name: Computer Science
         description: ""
         percent: 90
         icon: "💻"
+        icon_pack: emoji
   - name: Tech Stack
     color: "#00B2D6"
     color_border: "#5BCCE2"
@@ -134,13 +127,13 @@ skills:
         percent: 60
         icon: devicon/figma
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Chinese
+#     percent: 75
+#   - name: Portuguese
+#     percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
