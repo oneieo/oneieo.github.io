@@ -70,17 +70,17 @@ education:
       text: "Homepage"
       url: "https://csai.jbnu.ac.kr/csai/index.do"
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ""
+  - position: GTEP Agent
+    company_name: Jeonbuk National University GTEP
+    company_url: "https://jbnugtep.com/"
     company_logo: ""
-    date_start: 2021-01-01
-    date_end: ""
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: "2024-12-24"
+    date_end: "2025-12-31"
+    summary: |
+      - Support global export activities and trade consultation for Korean SMEs
+      - Overseas buyer sourcing, matching, and export market research & analysis
+      - Assistance with trade documentation and import/export procedures
+      - Planning and operational support for global business networking events
   - position: Backend Software Engineer
     company_name: X
     company_url: ""

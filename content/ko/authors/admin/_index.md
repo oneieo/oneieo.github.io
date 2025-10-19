@@ -70,17 +70,17 @@ education:
       text: "홈페이지"
       url: "https://csai.jbnu.ac.kr/csai/index.do"
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ""
+  - position: GTEP 사업단 요원
+    company_name: 전북대학교 GTEP 사업단
+    company_url: "https://jbnugtep.com/"
     company_logo: ""
-    date_start: 2021-01-01
-    date_end: ""
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: "2024-12-24"
+    date_end: "2025-12-31"
+    summary: |
+      - 대한민국 중소기업의 글로벌 수출 활동 지원 및 무역 상담
+      - 해외 바이어 발굴 및 매칭, 수출 시장 조사 및 분석
+      - 무역 서류 작성 지원 및 수출입 절차 안내
+      - 글로벌 비즈니스 네트워킹 행사 기획 및 운영 지원
   - position: Backend Software Engineer
     company_name: X
     company_url: ""
