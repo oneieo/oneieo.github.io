@@ -128,7 +128,7 @@ skills:
       - name: JavaScript + TypeScript
         description: ""
         percent: 90
-        icon: brands/js
+        icon: js-square
         icon_pack: fab
       - name: Photography
         description: ""
